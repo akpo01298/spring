@@ -46,7 +46,7 @@
 <option>물</option>
 </select>
 
-<button type="button" class="btn btn-danger">저장</button>
+<input type="submit" class="btn btn-danger" value="추가">
 </form>
 <a href=checkOut.jsp>계산</a></center>
 <%} %>
