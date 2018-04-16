@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>201332014 방미리</title>
+<style>
+body{
+	font:Arial;
+	}
+
+.frame{
+	width:800px; margin:0 auto; border:1px solid #EAEAEA;
+	}
+.header{
+	padding:40px 10px;	text-align:center;
+	margin-bottom:20px; background:black;
+	}
+.profile{
+	font-size:2em;font-weight:bold; color:white;
+	background:#FF007F;	display:inline-block; padding:0 8px;
+}
+.container{
+	overflow:hidden; height:450px;
+	}
+.nav{
+	float:left; width:150px;
+	background:black; color:#FAF4C0;
+	margin-right:50px;
+	}
+.nav-list{
+	list-style:none; margin:0; padding:10px 0;
+	}
+.nav-item{
+	margin:4px 0;
+	}
+.nav-link{
+	display:block; text-decoration:none;
+	padding:4px 10px; color:white;
+	}
+.nav-link:hover{
+	background:#FF007F;
+	}
+.content{
+	float:left; 	width:600px;
+	
+	}
+img{
+	width: auto; height: auto;
+    max-width: 100px; max-height: 100px;
+	}
+.footer{
+	text-align:center; border-top:1px solid #aaa;
+	margin 2-0px 20px 0; font-size:12px;
+	}	
+table{
+	border:1px solid black; width:auto;
+}
+</style>
+</head>
+
+<body>
+<div class="frame">
+<div class="header">
+		<div class="profile">profile	</div>
+</div>
+
+	<div class="container">
+		<div class="nav">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Experience</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Education</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Skills</a></li>
+				<li class="nav-item">
+					<a href="http://localhost:8080/html/01/join" class="nav-link">Join</a></li>
+				<li class="nav-item">
+					<a href="http://localhost:8080/html/01/index" class="nav-link">Post</a></li>
+			</ul>
+			</ul>
+	</div>
+		
+		<div class="content">
+			<h4>게시글</h4>
+			<table>
+				<tr>
+					<th>번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>날짜</th>
+					<th>조회수</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>CSS로 게시판 만들기</td>
+					<td>방미리</td>
+					<td>2018.01.01</td>
+					<td>0</td>
+				</tr>
+			</table>
+			<a href="#">글쓰기</a>
+		</div>
+	</div>
+	<div class="footer">
+	<p class="copyright">&copy;BMR</p>
+ 	</div>
+ </div>
+
+</body>
+</html>

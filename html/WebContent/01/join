@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>201332014 방미리</title>
+<style>
+body{
+	font:Arial;
+	}
+
+.frame{
+	width:800px; margin:0 auto; border:1px solid #EAEAEA;
+	}
+.header{
+	padding:40px 10px;	text-align:center;
+	margin-bottom:20px; background:black;
+	}
+.profile{
+	font-size:2em;font-weight:bold; color:white;
+	background:#FF007F;	display:inline-block; padding:0 8px;
+}
+.container{
+	overflow:hidden; height:450px;
+	}
+.nav{
+	float:left; width:150px;
+	background:black; color:#FAF4C0;
+	margin-right:50px;
+	}
+.nav-list{
+	list-style:none; margin:0; padding:10px 0;
+	}
+.nav-item{
+	margin:4px 0;
+	}
+.nav-link{
+	display:block; text-decoration:none;
+	padding:4px 10px; color:white;
+	}
+.nav-link:hover{
+	background:#FF007F;
+	}
+.content{
+	float:left; 	width:600px;
+	
+	}
+img{
+	width: auto; height: auto;
+    max-width: 100px; max-height: 100px;
+	}
+.footer{
+	text-align:center; border-top:1px solid #aaa;
+	margin 2-0px 20px 0; font-size:12px;
+	}
+form{
+	background:#FF007F;
+	color:white;
+	padding: 20px;
+	width: 400px;
+	}
+form input {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	width:300px;
+}
+</style>
+</head>
+
+<body>
+<div class="frame">
+<div class="header">
+		<div class="profile">profile	</div>
+</div>
+
+	<div class="container">
+		<div class="nav">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Experience</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Education</a></li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Skills</a></li>
+				<li class="nav-item">
+					<a href="http://localhost:8080/html/01/join" class="nav-link">Join</a></li>
+				<li class="nav-item">
+					<a href="http://localhost:8080/html/01/index" class="nav-link">Post</a></li>
+			</ul>
+	</div>
+		
+		<div class="content">
+			<form name="input" action"aa.jsp" method="post">
+				<fieldset>
+					<h4> 회원 가입</4>
+					<p>email : <br>
+					<input type="email" name="email" reauired></p>
+					<p>password : <br>
+					<input type="password" name="email" reauired></p>
+					<p>nickname  : <br>
+					<input type="text" name="name" reauired></p>
+					<p>tel : <br>
+					<input type="tel" name="tel" reauired></p>
+					<textarea rows="5" cols="35"> 하고싶은 말 작성해주세요 .</textarea>
+					<p></p>
+					<button type="submit">회원 가입</button>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+	<p class="copyright">&copy;BMR</p>
+ 	</div>
+ </div>
+
+</body>
+</html>
