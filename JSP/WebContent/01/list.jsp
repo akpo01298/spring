@@ -35,7 +35,7 @@
 			out.println("<li>"+msg+"</li>");
 		}
 	}
-	%>
+%>
 </ul></div>
 </div>
 	

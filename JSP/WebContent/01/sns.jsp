@@ -13,7 +13,6 @@
 		application.setAttribute("msgs",msgs);
 	}
 	msgs.add(username+" :: "+msgs+" , "+new java.util.Date());
-	
 	application.log(msg+"추가됨");
 	response.sendRedirect("list.jsp"); //목록화면으로 리다이렉팅
 %>
