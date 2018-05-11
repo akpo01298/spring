@@ -20,7 +20,7 @@
 </head>
 <body>
 <div align=center>
-<h3>sns</h3>
+<h3> sns</h3>
 <hr>
 <form action="sns.jsp" method="POST">
 	@<%=session.getAttribute("user") %><input type="text" name="msg">
