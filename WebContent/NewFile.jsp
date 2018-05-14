@@ -7,6 +7,5 @@
 <title>Insert title here</title>
 </head>
 <body>
-hi hh sd sss sss ㅇㅇ
 </body>
 </html>
